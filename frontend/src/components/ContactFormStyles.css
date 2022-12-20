@@ -40,6 +40,19 @@
   border-radius: 4px;
   transition: 0.2s ease-in-out;
 }
+.conatct a {
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  text-decoration: none;
+
+  color: red;
+  align-self: flex-end;
+}
+.conatct a:hover {
+  color: #151516;
+}
 
 @media screen and (max-width: 850px) {
   .conatct {

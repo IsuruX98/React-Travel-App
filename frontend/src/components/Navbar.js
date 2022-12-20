@@ -33,9 +33,9 @@ const Navbar = () => {
         })}
 
         <li>
-          <a className="nav-links-acc" href="#acc">
+          <Link className="nav-links-acc" to="/signup">
             Sign up
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
