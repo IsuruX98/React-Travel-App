@@ -47,6 +47,12 @@ img {
   letter-spacing: 2px;
   color: black;
 }
+.hero-text .show:hover {
+  background-color: #151516;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+}
 
 @media screen and (max-width: 555px) {
   .hero-text h1 {

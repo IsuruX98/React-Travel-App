@@ -1,7 +1,9 @@
 import React from "react";
 import Destination from "../components/Destination";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import RecentTrips from "../components/RecentTrips";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         btnClass="show"
       />
       <Destination />
+      <RecentTrips />
+      <Footer />
     </>
   );
 };
